@@ -8,6 +8,12 @@ Python (like many programming languages) is bad at math. It can't represent very
 
 Arithmetics Library can add, subtract or multiply numbers AT ANY LENGTH with the exact precision. It doesn't suffer from integer overflow or floating point rounding problems because it takes numbers in string format. It can work with positive, negative and decimal numbers. Analytics Library can calculate the above multiplication precisely: ``-539980584635519517644606174820023097370977572779217236866897631496501.40991196066825563084376519821275241099``.
 
+Setup
+=====
+Arithmetics Library is freely available on the Python Package Index PyPI at https://pypi.org/project/arithmetics ::
+
+    pip install arithmetics
+
 Usage
 =====
 ``arithmetics.calculate(...)`` takes in 1 arithmetic operator (``+``, ``-``, or ``*``) and 2 numbers in string format, and returns the result as a string::
